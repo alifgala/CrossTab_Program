@@ -7,7 +7,6 @@ if "all_results" not in st.session_state:
 
 # Judul aplikasi
 st.title("Aplikasi Automasi Analisis Crosstab")
-st.title("(Masukkan file berekstensi excel yang memiliki minimal 3 kolom/fitur")
 
 # Unggah file Excel
 uploaded_file = st.file_uploader("Unggah file Excel", type=["xlsx", "csv"])
